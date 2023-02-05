@@ -1,0 +1,117 @@
+body {
+    background-image: url("../img/bg-repeat.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 40px;
+    gap: 40px;
+    height: 100vh;
+}
+
+.description {
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.description h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+}
+  
+.description p {
+font-size: 15px;
+max-width: 300px;
+line-height: 18px;
+}
+
+.form {
+background-color: white;
+width: 340px;
+height: 380px;
+margin-right: 10px;
+margin-left: 8px;
+padding:20px;
+display: flex;
+flex-direction: column;
+}
+
+.form .fields {
+display: flex;
+flex-direction: column;
+gap: 6px;
+}
+
+.form .fields .input {
+display: flex;
+flex-direction: column;
+}
+
+.form .fields .input .field {
+font-size: 15px;
+padding: 8px 10px 8px 10px;
+}
+
+.form .fields .input textarea {
+height: 100px;
+}
+
+.activeField {
+color: red;
+font-size: 8px;
+}
+
+.inactiveField {
+color: red;
+font-size: 8px;
+opacity: 0;
+}
+
+.form .warning {
+font-size: 15px;
+margin-top: 7px;
+margin-bottom: 11px;
+}
+
+.form #submit-btn {
+color: white;
+background-color: lightgreen;
+font-weight: 700;
+border-radius: 5px;
+padding: 12px 0;
+}
+
+.form #submit-btn:hover {
+cursor: pointer;
+}
+
+::placeholder {
+color: #a8a8a8;
+font-weight: 700;
+font-size: 15px;
+}
+
+.black {
+border: solid 1px #000000;
+border-radius: 5px;
+}
+
+.red {
+border: solid 1px red;
+border-radius: 5px;
+}
+
+.green {
+border: solid 1px green;
+border-radius: 5px;
+}
+
